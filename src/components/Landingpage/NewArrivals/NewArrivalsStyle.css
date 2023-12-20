@@ -1,0 +1,74 @@
+.NewArrivalsBody{
+    width: 100%;
+    height: auto;
+    padding-bottom: 10px;
+}
+
+.NewArrivalsTitle {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    /* background: #000; */
+}
+
+.NewArrivalsTitle  h3{
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 48px;
+}
+
+.NewArrivalsTitle::after {
+    position: absolute;
+    content: "";
+    top:  80%;
+    width: 8%;
+    height: 5px;
+    background: red;
+}
+
+
+.MoveButton {
+    width: 100%;
+    height: 100px;
+    /* background: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.MoveButtonWrapper {
+    width: 65%;
+    height: 100%;
+    /* background: green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.BtnClick {
+    width: 15%;
+    padding: 10px;
+    border: 1px solid lightgray;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.Active{
+    background-color:#FE4C50;
+    color: white;
+}
+
+
+.Product {
+    width: 100%;
+    height: 200px;
+    background: red;
+}

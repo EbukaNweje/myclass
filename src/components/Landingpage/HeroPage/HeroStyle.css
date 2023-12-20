@@ -1,0 +1,34 @@
+.HeroBody {
+    width: 100%;
+    height: 100vh;
+    background: url("./slider_1.jpg");
+    background-size:cover;
+    display: flex;
+    align-items: center;
+    
+}
+
+.HeroWrapper {
+    width: 65%;
+    height: 60%;
+    margin-left: 5%;
+}
+
+.HeroWrapper h6 {
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(40, 40, 40);
+    line-height: 16.8px;
+}
+
+.HeroWrapper h1 {
+    font-size: 72px;
+    font-weight: 400;
+    color: rgb(40, 40, 40);
+    line-height: 72px;
+    width: 80%;
+}
+
+.btnShop:hover{
+    background-color: rgb(255, 114, 116);
+}
